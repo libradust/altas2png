@@ -1,5 +1,3 @@
-##Python3 can use
-##适配Python3
 
 ### How to use
 ### 说明文档
