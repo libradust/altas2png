@@ -35,7 +35,7 @@ def _parse(filePath, fileName):
         if match1:
             pngFile = os.path.join(root, line)
             sourceImage = Image.open(pngFile)
-            for x in xrange(4):
+            for x in range(4):
                 sourceAtlas.readline()
         
         match2 = re.match(r'^[^\s]+', line)
